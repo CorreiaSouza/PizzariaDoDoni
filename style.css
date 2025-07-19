@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1f1e1f;
+    background-color: #ff0606;
     position: fixed;
     padding-left: 5%;
 }
@@ -63,9 +63,8 @@ header {
 }
 
 .list-menu li a:hover { 
-    background-color: #333; 
-    border-bottom: 4px solid #ffc506;
-    color: #ffc506;
+    border-bottom: 4px solid #ff0606;
+    color: black;
 }
 
 .first-selection {
@@ -91,14 +90,14 @@ header {
 }
 
 .first-selection h1{
-    color: #ffc506;
+    color: #ff0606;
     font-size: 6rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
 
 .first-selection h2{
-    color: rgb(117, 117, 117);
+    color: white;
     font-size: 3rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -110,9 +109,9 @@ header {
     height: 60px;
     cursor: pointer;
     text-transform: uppercase;
-    background-color: #ffc506;
+    background-color: #ff0606;
     border-radius: 10px;
-    color:black;
+    color: white;
     font-weight: 700;
     margin-top: 5rem;
     transition: all 400ms ease-in;
@@ -120,9 +119,9 @@ header {
 }
 
 .btn button:hover{
-    border: 1px solid #ffc506;
+    border: 1px solid #ff0606;
     background-color: transparent;
-    color: #ffc506
+    color: #ff0606;
 }
 
 .btn{
@@ -133,10 +132,10 @@ header {
 
 /*Sobre nos*/
 .sobre-nos{
-   background-color: #1f1e1f;
+   background-color: #f7f7f7;
    width: 100%;
    padding-bottom: 5rem;
-   color: white;
+   color: black;
    display: flex; 
    align-items: center;
    justify-content: center;
@@ -183,12 +182,26 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(12, 12, 12, 0.8);
+    background-color: white;
+}
+
+.cardapio {
+
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)),url(imagens/fundopizza.jpg);
+    background-position: center center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
 }
 
 .cardapio h2{
     font-size: 5rem;
-    color: #e6e6e6;
+    color: black;
     text-transform: uppercase;
 
 }
@@ -256,24 +269,24 @@ header {
     width: 200px;
     height: 35px;
     margin-top: 0.5rem;
-    background-color: #ffc506;
+    background-color: #ff0606;
     border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
-    color: black;
+    color: white;
     transition: all 200ms ease-in;
 }
 
 .itens-cardapio .info .pedir:hover{
-    background-color: #5e5252;
-    color: white;
+    background-color: white;
+    color: #ff0606;
 }
 
 /*contatos*/
 
 .contatos{
     width: 100%;
-    background-color: #1f1e1f;
+    background-color: #ff0606;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -306,7 +319,7 @@ header {
 }
 
 .contatos-secao div:hover{
-    color: #ffc506;
+    color: black;
 }
 
 .footer {
