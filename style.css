@@ -70,7 +70,7 @@ header {
 
 .first-selection {
     height: 100vh;
-    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)),url(fundopizza.jpg);
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)),url(imagens/fundopizza.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
